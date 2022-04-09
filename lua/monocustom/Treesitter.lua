@@ -7,7 +7,7 @@ local Treesitter = {
 		TSTypeBuiltin = {fg = C.blue, },
 		TSConditional = {fg = C.blue, },
 		TSException = {fg = C.purple, },
-		TSInclude = {fg = C.purple, },
+		TSInclude = {fg = C.red0, },
 		TSKeywordReturn = {fg = C.purple, },
 		TSKeyword = {fg = C.blue, },
 		TSKeywordFunction = {fg = C.blue, },
