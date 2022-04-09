@@ -1,5 +1,5 @@
 " Author: Christian Chiarulli <chrisatmachine@gmail.com>
-
+hi MatchParen guifg=#52B0EF guibg=NONE guisp=NONE gui=bold ctermfg=1 ctermbg=NONE cterm=bold
 lua << EOF
 package.loaded['monocustom'] = nil
 package.loaded['monocustom.highlights'] = nil

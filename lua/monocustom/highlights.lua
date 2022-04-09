@@ -34,7 +34,7 @@ local highlights = {
 		PmenuSbar = {bg = C.alt_bg, },
 		PmenuThumb = {bg = C.gray, },
 		MatchWord = {style = "underline", },
-		MatchParen = {fg = C.blue0, bg=C.bg  },
+		MatchParen = {fg = C.blue0, bg=C.bg, style = "bold",},
 		MatchWordCur = {style = "underline", },
 		MatchParenCur = {style = "underline", },
 		Cursor = {bg = C.green1,},
