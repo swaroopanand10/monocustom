@@ -2,6 +2,8 @@
 hi MatchParen guifg=#52B0EF guibg=NONE guisp=NONE gui=bold ctermfg=1 ctermbg=NONE cterm=bold
 highlight Visual guifg=NONE guibg=#3a3f45 guisp=NONE gui=NONE blend=NONE
 highlight VisualNOS guifg=#FF6B6B guibg=#3a3f45 guisp=NONE gui=NONE blend=NONE
+highlight Directory guifg=#52B0EF guibg=NONE guisp=NONE gui=bold blend=NONE
+highlight	NvimTreeFolderIcon guifg=#52B0EF guibg=NONE guisp=NONE gui=bold blend=NONE 
 lua << EOF
 package.loaded['monocustom'] = nil
 package.loaded['monocustom.highlights'] = nil
