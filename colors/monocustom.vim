@@ -1,27 +1,27 @@
 " Author: Christian Chiarulli <chrisatmachine@gmail.com>
 
 lua << EOF
-package.loaded['monovibrant'] = nil
-package.loaded['monovibrant.highlights'] = nil
-package.loaded['monovibrant.Treesitter'] = nil
-package.loaded['monovibrant.markdown'] = nil
-package.loaded['monovibrant.Whichkey'] = nil
-package.loaded['monovibrant.Git'] = nil
-package.loaded['monovibrant.LSP'] = nil
-package.loaded['monovibrant.Quickscope'] = nil
-package.loaded['monovibrant.Telescope'] = nil
-package.loaded['monovibrant.NvimTree'] = nil
-package.loaded['monovibrant.Lir'] = nil
-package.loaded['monovibrant.Buffer'] = nil
-package.loaded['monovibrant.StatusLine'] = nil
-package.loaded['monovibrant.IndentBlankline'] = nil
-package.loaded['monovibrant.Dashboard'] = nil
-package.loaded['monovibrant.DiffView'] = nil
-package.loaded['monovibrant.Bookmarks'] = nil
-package.loaded['monovibrant.Bqf'] = nil
-package.loaded['monovibrant.Cmp'] = nil
-package.loaded['monovibrant.SymbolOutline'] = nil
-package.loaded['monovibrant.Misc'] = nil
+package.loaded['monocustom'] = nil
+package.loaded['monocustom.highlights'] = nil
+package.loaded['monocustom.Treesitter'] = nil
+package.loaded['monocustom.markdown'] = nil
+package.loaded['monocustom.Whichkey'] = nil
+package.loaded['monocustom.Git'] = nil
+package.loaded['monocustom.LSP'] = nil
+package.loaded['monocustom.Quickscope'] = nil
+package.loaded['monocustom.Telescope'] = nil
+package.loaded['monocustom.NvimTree'] = nil
+package.loaded['monocustom.Lir'] = nil
+package.loaded['monocustom.Buffer'] = nil
+package.loaded['monocustom.StatusLine'] = nil
+package.loaded['monocustom.IndentBlankline'] = nil
+package.loaded['monocustom.Dashboard'] = nil
+package.loaded['monocustom.DiffView'] = nil
+package.loaded['monocustom.Bookmarks'] = nil
+package.loaded['monocustom.Bqf'] = nil
+package.loaded['monocustom.Cmp'] = nil
+package.loaded['monocustom.SymbolOutline'] = nil
+package.loaded['monocustom.Misc'] = nil
 
-require("monovibrant")
+require("monocustom")
 EOF
