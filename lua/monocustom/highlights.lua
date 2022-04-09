@@ -66,7 +66,7 @@ local highlights = {
 		Identifier = {fg = C.red0, },
 		Function = {fg = C.green2, style = "italic",},
 		Operator = {fg = C.fg, },
-		Type = {fg = C.red0, },
+		Type = {fg = C.blue0, },
 		StorageClass = {fg = C.blue0, },
 		Structure = {fg = C.blue0, },
 		Typedef = {fg = C.blue, },
